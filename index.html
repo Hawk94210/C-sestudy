@@ -118,13 +118,11 @@
         time = fullTime;
         document.getElementById("score").innerHTML = "Score: "+score;
         document.getElementById("level").innerHTML = "Level: "+level;
-        document.getElementById("correct");
         generateCalculation();
     }
     function gameOver() {
         document.getElementById("true").style.display = "none";
         document.getElementById("false").style.display = "none";
-        document.getElementById("wrong");
         alert("Game Over. Your score is "+ score + ". Replay?");
         location.reload();
     }
